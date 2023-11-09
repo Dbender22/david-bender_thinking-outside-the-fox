@@ -8,7 +8,7 @@ h1 {
 
 main {
   height: 950px;
-  width: 1700px;
+  width: 90%;
   background: rgb(208, 153, 70);
   margin: auto;
 }
@@ -33,6 +33,29 @@ html {
 
 .header > h1 {
   flex-grow: 1;
+  font-size: 3em;
+  text-align: center;
+}
+
+.contentWrapper {
+  display: flex;
+}
+
+.sideNav {
+  width: 700px;
+}
+
+.sideNav li {
+  list-style-type: none;
+}
+
+.mainContent {
+  flex-grow: 1;
+  padding: 1em;
+}
+
+.mainContent p {
+  font-size: 1.3em;
 }
 
 /* BUTTON STYLES */
