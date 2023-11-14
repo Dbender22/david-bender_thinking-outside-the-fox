@@ -33,8 +33,12 @@ html {
   padding: 2em;
 }
 
-.mainContent p {
+.mainContent {
   font-size: 2em;
+}
+
+.mainContent {
+  text-indent: 30px;
 }
 
 /* Header */
@@ -53,6 +57,10 @@ html {
 
 .contentWrapper {
   display: flex;
+}
+
+.divider {
+  width: 40%;
 }
 
 /* Side Navigation */
@@ -75,15 +83,13 @@ html {
   color: rgb(255, 236, 230);
   width: 700px;
   font-size: 2.5em;
-
-  /* padding: 8px 20px; */
   text-decoration: none;
   font-weight: bold;
   cursor: pointer;
 }
 
 .sideNav a:hover {
-  color: rgb(120, 26, 26);
+  color: rgb(130, 117, 114);
   text-decoration: underline;
 }
 
