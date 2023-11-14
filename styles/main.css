@@ -39,10 +39,15 @@ html {
 
 .mainContent {
   text-indent: 30px;
-  padding-top: 6em;
+  padding-top: 0;
   background-image: url(../Images/Divider.png);
   background-repeat: no-repeat;
   background-size: contain;
+}
+
+.mainContent h2 {
+  margin-top: 0.75em;
+  padding-bottom: 0.5em;
 }
 
 /* Header */
@@ -63,19 +68,20 @@ html {
   display: flex;
 }
 
-/* .divider {
-  width: 88%;
-} */
-
 /* Side Navigation */
+
+.sideNav {
+  background-color: rgba(138, 75, 46, 1);
+}
 
 .sideNav ul {
   padding: 0;
+  margin-top: 0;
 }
 
 .sideNav li {
   border-bottom: 1px #fff solid;
-  background-color: rgba(89, 50, 32, 0.924);
+  background-color: rgba(138, 75, 46, 1);
   padding: 1em;
 }
 
