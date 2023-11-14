@@ -9,7 +9,7 @@ h1 {
 }
 
 main {
-  height: 950px;
+  /* height: 950px; */
   width: 90%;
   background: rgb(208, 153, 70);
   margin: auto;
@@ -39,6 +39,10 @@ html {
 
 .mainContent {
   text-indent: 30px;
+  padding-top: 6em;
+  background-image: url(../Images/Divider.png);
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 /* Header */
@@ -59,9 +63,9 @@ html {
   display: flex;
 }
 
-.divider {
-  width: 40%;
-}
+/* .divider {
+  width: 88%;
+} */
 
 /* Side Navigation */
 
