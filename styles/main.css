@@ -122,6 +122,16 @@ html {
   width: 60%;
 }
 
+.Pups {
+  float: left;
+  width: 90%;
+}
+
+.Domestic {
+  float: right;
+  width: 70%;
+}
+
 .DomesticFox {
   width: 60%;
 }
@@ -154,24 +164,57 @@ Button {
 
 .Red {
   width: 17%;
+  float: right;
 }
 
 .Fennec {
   width: 17%;
+  float: right;
 }
 
 .Silver {
   width: 17%;
+  float: right;
 }
 
 .Arctic {
   width: 17%;
+  float: right;
 }
 
 .Bat {
   width: 17%;
+  float: right;
 }
 
 .Grey {
   width: 17%;
+  float: right;
+}
+h2 {
+  text-decoration: underline;
+}
+
+/* Info/Care */
+
+.Supplies-Resources {
+  text-align: center;
+  padding-bottom: 1em;
+  padding-top: 2em;
+}
+
+.Diet {
+  padding-top: 0.5em;
+}
+
+.Meat {
+  text-align: center;
+}
+
+.InsectsFruits {
+  text-align: center;
+}
+
+.Enviroment {
+  padding-top: 1em;
 }
