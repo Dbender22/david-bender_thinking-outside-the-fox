@@ -115,3 +115,63 @@ html {
   border: 0.25em solid rgba(0, 0, 0, 0);
   font-weight: bold;
 }
+
+/* History */
+
+.Belyaev {
+  width: 60%;
+}
+
+.DomesticFox {
+  width: 60%;
+}
+
+/* Breeds */
+
+.RedButton {
+  padding: 1em;
+}
+
+.FennecButton {
+  padding: 1em;
+}
+
+.SilverButton {
+  padding: 1em;
+}
+
+.ArcticButton {
+  padding: 1em;
+}
+
+.BatButton {
+  padding: 1em;
+}
+
+Button {
+  padding: 1em;
+}
+
+.Red {
+  width: 17%;
+}
+
+.Fennec {
+  width: 17%;
+}
+
+.Silver {
+  width: 17%;
+}
+
+.Arctic {
+  width: 17%;
+}
+
+.Bat {
+  width: 17%;
+}
+
+.Grey {
+  width: 17%;
+}
