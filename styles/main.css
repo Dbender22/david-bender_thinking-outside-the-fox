@@ -220,12 +220,35 @@ h2 {
   padding-top: 1em;
 }
 
+.Mouse {
+  width: 25%;
+}
+
+.Bug {
+  width: 25%;
+}
+
+.Enclosure {
+  width: 35%;
+}
+
+.Pet {
+  width: 30%;
+}
+
+/* Images */
+
 .img-float-left {
   float: left;
-  margin-right: 2em;
+  margin-right: 1em;
 }
 
 .img-float-right {
   float: right;
-  margin-right: 2em;
+  margin-left: 1em;
+}
+
+.img-float-left {
+  float: left;
+  margin-right: 1em;
 }
