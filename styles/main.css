@@ -118,8 +118,9 @@ html {
 
 /* History */
 
-.Belyaev {
+.img-float-left {
   width: 60%;
+  float: right;
 }
 
 .Pups {
@@ -217,4 +218,14 @@ h2 {
 
 .Enviroment {
   padding-top: 1em;
+}
+
+.img-float-left {
+  float: left;
+  margin-right: 2em;
+}
+
+.img-float-right {
+  float: right;
+  margin-right: 2em;
 }
