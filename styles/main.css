@@ -218,3 +218,15 @@ h2 {
 .Enviroment {
   padding-top: 1em;
 }
+
+/* Utility classes */
+
+.img-float-left {
+  float: left;
+  margin-right: 2em;
+}
+
+.img-float-right {
+  float: right;
+  margin-left: 2em;
+}
