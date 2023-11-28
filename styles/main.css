@@ -141,22 +141,56 @@ html {
 
 .RedButton {
   padding: 1em;
+  text-decoration: none;
+}
+
+.RedButton img:hover {
+  filter: brightness(120%);
 }
 
 .FennecButton {
   padding: 1em;
+  text-decoration: none;
+}
+
+.FennecButton img:hover {
+  filter: brightness(120%);
 }
 
 .SilverButton {
   padding: 1em;
+  text-decoration: none;
+}
+
+.SilverButton img:hover {
+  filter: brightness(120%);
 }
 
 .ArcticButton {
   padding: 1em;
+  text-decoration: none;
+}
+
+.ArcticButton img:hover {
+  filter: brightness(120%);
 }
 
 .BatButton {
   padding: 1em;
+  text-decoration: none;
+}
+
+.BatButton img:hover {
+  filter: brightness(120%);
+}
+
+.GreyButton {
+  padding: 1em;
+  text-decoration: none;
+}
+
+.GreyButton img:hover {
+  filter: brightness(120%);
 }
 
 Button {
@@ -236,6 +270,31 @@ h2 {
   width: 30%;
 }
 
+.supplies {
+  background-color: rgb(221, 192, 158);
+  color: rgb(61, 61, 61);
+  width: 550px;
+  font-size: 1.5em;
+  text-decoration: underline;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 30px;
+
+  padding: 32px;
+  border-width: 2px;
+  border-style: outset;
+  border-color: buttonborder;
+  border-image: initial;
+  margin: 3em auto 0.5em auto;
+  display: block;
+  text-align: center;
+}
+
+.supplies:hover {
+  filter: brightness(115%);
+  color: black;
+}
+
 /* Images */
 
 .img-float-left {
@@ -251,4 +310,11 @@ h2 {
 .img-float-left {
   float: left;
   margin-right: 1em;
+}
+
+/* Utility classes for text */
+
+.text-center {
+  text-align: center;
+  text-indent: 0;
 }
